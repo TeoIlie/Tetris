@@ -1,3 +1,3 @@
-# Tetris-
+# Tetris
 Tetris game written in Java using the AWT API
 In order to program Tetris using the java AWT graphics package, we will use the standard set up. There will be four files, all in the same folder. One called Main.java, which will be the one that is run to play the game, will construct a TetrisWindow: a frame. A second, TetrisWindow.java, which extends Frame, will construct the frame and add a panel. This panel, created in the third file called TetrisPanel.java, will be responsible for holding the access to painting and to manipulate the game actions and reactions. Said game will be programmed in the fourth and final file Tetris.java, in which all necessary methods, including the displaying of the game, will be coded. Note that the TetrisPanel, which extends class Panel, will implement double-buffering to avoid blinking.
